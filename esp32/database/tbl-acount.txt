@@ -1,0 +1,17 @@
+
+
+table name = tbl_acount
+==========================================================
+| id_user   |   int(10)    | NOT NULL | Primary key | AI |
+============+==============+==========+===================
+| name_user | varchar(100) | NOT NULL |     -       |  - |
+============+==============+==========+===================
+| mail_user | varchar(100) | NOT NULL |     -       |  - |
+============+==============+==========+===================
+| pass_user | varchar(100) | NOT NULL |     -       |  - |
+==========================================================
+
+
+CREATE TABLE IF NOT EXISTS `tbl_acount` (`id_user` int(10) NOT NULL, `name_user` varchar(200) NOT NULL, `mail_user` varchar(200) NOT NULL, `pass_user` varchar(200) NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ALTER TABLE `tbl_acount` ADD PRIMARY KEY (`id_user`);
+ALTER TABLE `tbl_acount` MODIFY `id_user` int(10) NOT NULL AUTO_INCREMENT;

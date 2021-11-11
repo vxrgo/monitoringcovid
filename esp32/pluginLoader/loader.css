@@ -1,0 +1,49 @@
+.defaults{
+ color:white;
+}
+.starts{
+ -webkit-animation:spinr 3s linear infinite;
+ }@-webkit-keyframes spinr{
+  0%{color:red;}
+  50%{color:yellow;}
+  100%{color:green;}
+}
+.box_intrac{
+z-index:1;
+background: #fff;
+box-shadow:1px 1px 3px 0 #000;
+border-radius:5px;
+color:red;
+font-family:courier;
+font-weight:bold;
+padding:20px;
+display:none;
+}
+.preloader{
+width:45px;
+height:45px;
+border-radius:50px;
+padding:0;
+border-top:2px solid red;
+border-right:2px solid #fff; 
+border-left:2px solid #fff;
+border-bottom:2px solid red;
+-webkit-animation:loops 2s linear infinite;
+}@-webkit-keyframes loops{
+from{ transform:rotate(0deg); border-top-color:blue;}
+	to{ transform:rotate(360deg);border-bottom-color:blue;}
+}
+.inloader{
+margin-top:8px;
+height:30px;
+width:30px;
+border-radius:30px;
+border-left:2px solid yellow;
+border-right:2px solid yellow;
+}
+/*
+ Language:css
+ Author:na2m
+ Demo:na2m004.000webhostapp.com
+*/
+
