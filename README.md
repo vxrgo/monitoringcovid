@@ -1,0 +1,2 @@
+# monitoringcovid
+upload sql "mysql"
